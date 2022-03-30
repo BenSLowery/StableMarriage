@@ -1,0 +1,3 @@
+useDynLib(StableMarriage, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
