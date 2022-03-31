@@ -86,7 +86,7 @@ List StableMarriageAlgo(DataFrame prefA_R, DataFrame prefB_R)
     men.push_back("undesirable");
 
     while (k<n) {
-        checkUserInterrupt();
+        //checkUserInterrupt();
         // Assign next man in list as the suitor
         string X = men[k];
 
